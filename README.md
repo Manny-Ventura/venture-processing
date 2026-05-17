@@ -47,3 +47,9 @@ The API currently shows a health endpoint.
 
 ```http
 GET /health
+
+Returns if api endpoint is live, returns status ok if live.
+
+POST /inspections
+
+Accepts an inspection request and validates the request body. This endpoint does not persist data yet.
