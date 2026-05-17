@@ -40,3 +40,10 @@ Operator
   -> Worker processes inspection
   -> Worker updates job status/result
   -> API exposes inspection and job status
+
+## Current status
+
+The API currently shows a health endpoint.
+
+```http
+GET /health
